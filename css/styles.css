@@ -1,420 +1,1866 @@
-#body{
-/* Layout Properties */
-top: 0px;
-left: 0px;
-width: 1920px;
-height: 2437px;
-/* UI Properties */
-background: #ffffff 0% 0% no-repeat padding-box;
-opacity: 1;
-position: relative;
-}
-
-#full{
-position:absolute;
-top: 22px;
-left: 506px;
-width: 940px;
-height: 2347px;
-background: #141529 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 1;
-}
-
-#header{
-position: absolute;
-/* Layout Properties */
-top: 22px;
-left: 506px;
-width: 940px;
-height: 60px;
-/* UI Properties */
-background: #ffffff 0% 0% no-repeat padding-box;
-border-radius: 13px 13px 0px 0px;
-opacity: 0.1;
-margin: 0%;
-}
-
-#heading{
-    position: absolute;
-top: 43px;
-left: 868px;
-width: 231px;
-height: 19px;
-
-color: #ffffff;
-margin: 0%;
-}
-
-#button{
-    position: absolute;
-    /* Layout Properties */
-top: 37px;
-left: 1402px;
-width: 30px;
-height: 30px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 21px;
-opacity: 0.2;
-}
-
-#button1{
-    position: absolute;
-    /* Layout Properties */
-top: 47px;
-left: 1412px;
-width: 10px;
-height: 10px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 0.6000000238418579px solid #FFFFFF;
-opacity: 1;
-margin: 0%;
-}
-
-.slotsFrame{
-    position: absolute;
-   /* Layout Properties */
-top: 111px;
-left: 550px;
-width: 93px;
-height: 27px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 0.1; 
-}
-
-#slots{
-    position: absolute;
-    /* Layout Properties */
-top: 115px;
-left: 564px;
-width: 65px;
-height: 17px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 14px/17px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin: 0%;
-}
-
-.text{
-    position: absolute;
-    /* Layout Properties */
-top: 153px;
-left: 550px;
-width: 629px;
-height: 57px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 24px/28px Helvetica Neue One Caps;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin: 0%;
-}
-
-.text1{
-    position: absolute;
+#body {
   /* Layout Properties */
-top: 226px;
-left: 551px;
-width: 532px;
-height: 40px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 16px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;  
-margin: 0%;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 2437px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
 }
 
-.prizes{
-    position: absolute;
+#full {
+  position: absolute;
+  top: 22px;
+  left: 506px;
+  width: 940px;
+  height: 2347px;
+  background: #141529 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+#header {
+  position: absolute;
   /* Layout Properties */
-top: 64px;
-left: 1192px;
-width: 255px;
-height: 163px;
-/* UI Properties */
-opacity: 1;  
-margin: 0%;
+  top: 22px;
+  left: 506px;
+  width: 940px;
+  height: 60px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 13px 13px 0px 0px;
+  opacity: 0.1;
+  margin: 0%;
 }
 
-.banner{
-    position: absolute;
-    /* Layout Properties */
-top: 301px;
-left: 506px;
-width: 940px;
-height: 350px;
-/* UI Properties */
-opacity: 1;
-margin: 0%;
+#heading {
+  position: absolute;
+  top: 43px;
+  left: 868px;
+  width: 231px;
+  height: 19px;
+
+  color: #ffffff;
+  margin: 0%;
 }
 
-.card1{
-    position: absolute;
-/* Layout Properties */
-top: 586px;
-left: 551px;
-width: 274px;
-height: 145px;
-/* UI Properties */
-background: #2E9EA1 0% 0% no-repeat padding-box;
-border-radius: 20px;
-opacity: 1;
-margin: 0%;
+#button {
+  position: absolute;
+  /* Layout Properties */
+  top: 37px;
+  left: 1402px;
+  width: 30px;
+  height: 30px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  opacity: 0.2;
 }
 
-.card2{
-/* Layout Properties */
-top: 586px;
-left: 841px;
-width: 274px;
-height: 145px;
-/* UI Properties */
-background: #136A6E 0% 0% no-repeat padding-box;
-border-radius: 20px;
-opacity: 1;
-position: absolute;
-margin: 0%;
+#button1 {
+  position: absolute;
+  /* Layout Properties */
+  top: 47px;
+  left: 1412px;
+  width: 10px;
+  height: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.6000000238418579px solid #ffffff;
+  opacity: 1;
+  margin: 0%;
 }
 
-.card3{
-position: absolute;
-/* Layout Properties */
-top: 586px;
-left: 1131px;
-width: 274px;
-height: 145px;
-/* UI Properties */
-background: #136A6E 0% 0% no-repeat padding-box;
-border-radius: 20px;
-opacity: 1;
-margin: 0%;
+.slotsFrame {
+  position: absolute;
+  /* Layout Properties */
+  top: 111px;
+  left: 550px;
+  width: 93px;
+  height: 27px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 0.1;
 }
 
-.card4{
-    position: absolute;
-/* Layout Properties */
-top: 586px;
-left: 1421px;
-width: 25px;
-height: 145px;
-/* UI Properties */
-background: #136A6E 0% 0% no-repeat padding-box;
-border-radius: 20px 0px 0px 20px;
-opacity: 1;
-margin: 0%;
+#slots {
+  position: absolute;
+  /* Layout Properties */
+  top: 115px;
+  left: 564px;
+  width: 65px;
+  height: 17px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 14px/17px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0%;
 }
 
-.text2{
-    position: absolute;
-    top: 766px;
-left: 684px;
-width: 586px;
-height: 55px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 20px/26px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin: 0%;
+.text {
+  position: absolute;
+  /* Layout Properties */
+  top: 153px;
+  left: 550px;
+  width: 629px;
+  height: 57px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 24px/28px Helvetica Neue One Caps;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0%;
 }
 
-.date{
-    position: absolute;
-    margin: 0%;
-        /* Layout Properties */
-        top: 858px;
-        left: 718px;
-        width: 518px;
-        height: 40px;
-        /* UI Properties */
-        background: #1A293B 0% 0% no-repeat padding-box;
-        opacity: 1;
+.text1 {
+  position: absolute;
+  /* Layout Properties */
+  top: 226px;
+  left: 551px;
+  width: 532px;
+  height: 40px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 16px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0%;
 }
 
+.prizes {
+  position: absolute;
+  /* Layout Properties */
+  top: 64px;
+  left: 1192px;
+  width: 255px;
+  height: 163px;
+  /* UI Properties */
+  opacity: 1;
+  margin: 0%;
+}
 
+.banner {
+  position: absolute;
+  /* Layout Properties */
+  top: 301px;
+  left: 506px;
+  width: 940px;
+  height: 350px;
+  /* UI Properties */
+  opacity: 1;
+  margin: 0%;
+}
 
-#lbtext{
+.card1 {
+  position: absolute;
+  /* Layout Properties */
+  top: 586px;
+  left: 551px;
+  width: 274px;
+  height: 145px;
+  /* UI Properties */
+  background: #2e9ea1 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  margin: 0%;
+}
+
+.cardText {
   position: absolute;
   margin: 0%;
   /* Layout Properties */
-top: 871px;
-left: 752px;
-width: 72px;
-height: 15px;
-/* UI Properties */
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;  
-
+  top: 623px;
+  left: 650px;
+  width: 252px;
+  height: 123px;
+  /* UI Properties */
+  color: white;
+  opacity: 1;
 }
 
-#lbtext1{
-position: absolute;
-margin: 0%;
-top: 871px;
-left: 898px;
-width: 72px;
-height: 15px;
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
+.cardText1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 650px;
+  left: 635px;
+  font-size: x-large;
+  font: bold;
+  /* UI Properties */
+  color: white;
+  opacity: 1;
+}
+
+.cardText2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 623px;
+  left: 939px;
+  width: 252px;
+  height: 123px;
+  /* UI Properties */
+  color: white;
+  opacity: 1;
+}
+
+.cardText3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 650px;
+  left: 925px;
+  width: 252px;
+  height: 123px;
+  font-size: x-large;
+  font: bold;
+  /* UI Properties */
+  color: white;
+  opacity: 1;
+}
+
+.cardText4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 626px;
+  left: 1235px;
+  width: 100px;
+  height: 19px;
+  /* UI Properties */
+  text-align: left;
+  color: #ffffff;
+}
+
+.cardText5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 651px;
+  left: 1195px;
+  width: 150px;
+  height: 31px;
+  /* UI Properties */
+  text-align: center;
+  font-size: x-large;
+  font: bold;
+  /* UI Properties */
+  color: white;
+  opacity: 1;
+}
+
+.card2 {
+  /* Layout Properties */
+  top: 586px;
+  left: 841px;
+  width: 274px;
+  height: 145px;
+  /* UI Properties */
+  background: #136a6e 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 0%;
+}
+
+.card3 {
+  position: absolute;
+  /* Layout Properties */
+  top: 586px;
+  left: 1131px;
+  width: 274px;
+  height: 145px;
+  /* UI Properties */
+  background: #136a6e 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  margin: 0%;
+}
+
+.card4 {
+  position: absolute;
+  /* Layout Properties */
+  top: 586px;
+  left: 1421px;
+  width: 25px;
+  height: 145px;
+  /* UI Properties */
+  background: #136a6e 0% 0% no-repeat padding-box;
+  border-radius: 20px 0px 0px 20px;
+  opacity: 1;
+  margin: 0%;
+}
+
+.text2 {
+  position: absolute;
+  top: 766px;
+  left: 684px;
+  width: 586px;
+  height: 55px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 20px/26px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0%;
+}
+
+.date {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 858px;
+  left: 718px;
+  width: 518px;
+  height: 40px;
+  /* UI Properties */
+  background: #1a293b 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#lbtext {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 871px;
+  left: 752px;
+  width: 72px;
+  height: 15px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#lbtext1 {
+  position: absolute;
+  margin: 0%;
+  top: 871px;
+  left: 898px;
+  width: 72px;
+  height: 15px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#lbtext2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 871px;
+  left: 1010px;
+  width: 72px;
+  height: 15px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#lbtext3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 871px;
+  left: 1132px;
+  width: 72px;
+  height: 15px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.leaderboard {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 898px;
+  left: 507px;
+  width: 940px;
+  height: 593px;
+  /* UI Properties */
+  background: #1a293b 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+}
+
+.lb1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 943px;
+  left: 566px;
+  width: 382px;
+  height: 22px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal medium 18px/28px;
+  letter-spacing: 0px;
+  color: #ffffff;
+
+  opacity: 1;
+}
+
+.lb2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 975px;
+  left: 575px;
+  width: 365px;
+  height: 57px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.lb3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 943px;
+  left: 1002px;
+  width: 388px;
+  height: 48px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal medium 18px/22px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.lb4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 997px;
+  left: 1022px;
+  width: 365px;
+  height: 35px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.box {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 550px;
+  width: 415px;
+  height: 334px;
+  /* UI Properties */
+  background: #203248 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.box1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 989px;
+  width: 415px;
+  height: 334px;
+  /* UI Properties */
+  background: #203248 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.cap {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 550px;
+  width: 217px;
+  height: 29px;
+  /* UI Properties */
+  background: #2e9ea1 0% 0% no-repeat padding-box;
+  border-radius: 13px 0px;
+  opacity: 1;
+}
+
+.cap1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 747px;
+  width: 109px;
+  height: 29px;
+  /* UI Properties */
+  background: #227c7e 0% 0% no-repeat padding-box;
+  border-radius: 13px 0px;
+  opacity: 1;
+}
+
+.cap2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 989px;
+  width: 217px;
+  height: 29px;
+  /* UI Properties */
+  background: #f19020 0% 0% no-repeat padding-box;
+  border-radius: 13px 0px;
+  opacity: 1;
+}
+
+.cap3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1047px;
+  left: 1177px;
+  width: 139px;
+  height: 29px;
+  /* UI Properties */
+  background: #d2770e 0% 0% no-repeat padding-box;
+  border-radius: 13px 0px;
+  opacity: 1;
+}
+
+.prizes0 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1051px;
+  left: 561px;
+  width: 192px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/22px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizes1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1051px;
+  left: 777px;
+  width: 67px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/22px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizes2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1051px;
+  left: 1004px;
+  width: 196px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/22px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizes3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1051px;
+  left: 1216px;
+  width: 90px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/22px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place {
+  position: absolute;
+  margin: 0%;
+  top: 1094px;
+  left: 628px;
+  width: 52px;
+  height: 12px;
+  text-align: center;
+  font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 0.5;
+}
+
+.prizi {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1094px;
+  left: 797px;
+  width: 38px;
+  height: 12px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 0.5;
+}
+
+.table1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1113px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.table2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1154px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.table3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1195px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.table4 {
+  position: absolute;
+  margin: 0%;
+  top: 1236px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.table5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1277px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.table6 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1318px;
+  left: 600px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.slider {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1114px;
+  left: 922px;
+  width: 3px;
+  height: 35px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 0.17;
+}
+
+.place1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1123px;
+  left: 653px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1164px;
+  left: 653px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1204px;
+  left: 653px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1247px;
+  left: 645px;
+  width: 27px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1287px;
+  left: 642px;
+  width: 34px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.place6 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1328px;
+  left: 643px;
+  width: 34px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1121px;
+  left: 787px;
+  width: 60px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1162px;
+  left: 787px;
+  width: 60px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1202px;
+  left: 792px;
+  width: 50px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1245px;
+  left: 791px;
+  width: 52px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1285px;
+  left: 792px;
+  width: 50px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi6 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1326px;
+  left: 794px;
+  width: 42px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quantity {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1093px;
+  left: 1059px;
+  width: 74px;
+  height: 12px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 0.5;
+}
+
+.prizi7 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1093px;
+  left: 1237px;
+  width: 38px;
+  height: 12px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+}
+
+.table7 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1113px;
+  left: 1039px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.table8 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1154px;
+  left: 1038px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.table9 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1195px;
+  left: 1039px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.table10 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1236px;
+  left: 1039px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.table11 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1277px;
+  left: 1039px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.table12 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1318px;
+  left: 1039px;
+  width: 316px;
+  height: 36px;
+  /* UI Properties */
+  background: #162332 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.quan1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1122px;
+  left: 1090px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quan2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1164px;
+  left: 1090px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quan3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1205px;
+  left: 1090px;
+  width: 7px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quan4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1246px;
+  left: 1087px;
+  width: 14px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quan5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1287px;
+  left: 1084px;
+  width: 22px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.quan6 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1328px;
+  left: 1084px;
+  width: 22px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi8 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1121px;
+  left: 1225px;
+  width: 54px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi9 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1162px;
+  left: 1224px;
+  width: 54px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi10 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1202px;
+  left: 1228px;
+  width: 46px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi11 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1245px;
+  left: 1229px;
+  width: 44px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi12 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1285px;
+  left: 1233px;
+  width: 36px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.prizi13 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1328px;
+  left: 1235px;
+  width: 32px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/20px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.plus {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1174px;
+  left: 937px;
+  width: 80px;
+  height: 80px;
+  /* UI Properties */
+  background: transparent linear-gradient(270deg, #70e0b5 0%, #2e9ea1 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 0px 15px #65d5b2;
+  opacity: 1;
+}
+
+.info {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1406px;
+  left: 753px;
+  width: 450px;
+  height: 17px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.67;
+}
+
+.info1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1429px;
+  left: 637px;
+  width: 647px;
+  height: 36px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.67;
+}
+
+.slots {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1562px;
+  left: 550px;
+  width: 382px;
+  height: 29px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 24px/32px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.slots1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1601px;
+  left: 551px;
+  width: 415px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/20px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.terms {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1985px;
+  left: 887px;
+  width: 184px;
+  height: 22px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal medium 18px/23px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#line {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2281px;
+  left: 505px;
+  width: 940px;
+  height: 88px;
+  /* UI Properties */
+  background: transparent linear-gradient(270deg, #70e0b5 0%, #2e9ea1 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#footer {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2286px;
+  left: 505px;
+  width: 940px;
+  height: 88px;
+  /* UI Properties */
+  background: #141529 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.bet {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2306px;
+  left: 892px;
+  width: 170px;
+  height: 48px;
+  /* UI Properties */
+  background: #f05a22 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.bet1 {
+  position: absolute;
+  margin: 0%;
+
+  /* Layout Properties */
+  top: 2320px;
+  left: 938px;
+  width: 78px;
+  height: 19px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal medium 15px/19px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.previous {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2322px;
+  left: 570px;
+  width: 73px;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 13px/22px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+
+  opacity: 1;
+}
+
+.next {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2322px;
+  left: 1286px;
+  width: 100px;
+  height: 16px;
+  /* UI Properties */
+  text-align: right;
+  font: normal normal normal 13px/22px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2325px;
+  left: 553px;
+  width: 6px;
+  height: 11px;
+
+  opacity: 1;
+}
+
+.arrow1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2325px;
+  left: 1397px;
+  width: 6px;
+  height: 11px;
+  opacity: 1;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  position: absolute;
+  margin: 0%;
+  top: 1950px;
+  left: 550px;
+  width: 729px;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background: gray;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  width: 225px;
+  height: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: transparent linear-gradient(270deg, #70e0b5 0%, #2e9ea1 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.slotpics {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1900px;
+  left: 550px;
+  width: 192px;
+  height: 224px;
+  /* UI Properties */
+
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.test {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1650px;
+  left: 550px;
+  width: 192px;
+  height: 224px;
+  /* UI Properties */
+  background: transparent url("img/360x420.png") 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.test1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1650px;
+  left: 758px;
+  width: 192px;
+  height: 224px;
+  /* UI Properties */
+  background: transparent url("img/Ozwin.png") 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.test2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1650px;
+  left: 966px;
+  width: 192px;
+  height: 224px;
+  /* UI Properties */
+  background: transparent url("img/Valley of the Gods.png") 0% 0% no-repeat
+    padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.test3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1650px;
+  left: 1174px;
+  width: 192px;
+  height: 224px;
+  /* UI Properties */
+  background: transparent url("img/Vikings go Berzerk.png") 0% 0% no-repeat
+    padding-box;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.test4 {
+  position: absolute;
+  margin: 0%;
+top: 1650px;
+left: 1382px;
+width: 65px;
+height: 224px;
+/* UI Properties */
+background: transparent url('img/Dr Fortuno.png') 0% 0% no-repeat padding-box;
+border-radius: 13px 0px 0px 13px;
 opacity: 1;
 }
 
-#lbtext2{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 871px;
-left: 1010px;
-width: 72px;
-height: 15px;
+.scroll {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2041px;
+  left: 552px;
+  width: 854px;
+  height: 60px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.1;
+}
+
+.scroll2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2111px;
+  left: 552px;
+  width: 854px;
+  height: 60px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.1;
+}
+
+.scroll3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2181px;
+  left: 552px;
+  width: 854px;
+  height: 60px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.1;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion1 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2062px;
+  left: 582px;
+  width: 400px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 15px/22px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.accordion2 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2132px;
+  left: 581px;
+  width: 400px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 15px/22px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.accordion3 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2202px;
+  left: 581px;
+  width: 79px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 15px/22px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.arrow4 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2066px;
+  left: 1366px;
+  width: 15px;
+  height: 9px;
+
+  /* UI Properties */
+
+  opacity: 0.6;
+}
+
+.arrow5 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2136px;
+  left: 1366px;
+  width: 15px;
+  height: 9px;
+  opacity: 0.6;
+}
+
+.arrow6 {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2206px;
+  left: 1366px;
+  width: 15px;
+  height: 9px;
+
+  opacity: 1;
+}
+
+.accordion {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2066px;
+  left: 1366px;
+
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.panel {
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 2100px;
+  left: 551px;
+  width: 815px;
+  height: 140px;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+#testDiv{
+  display: none;
+}
+
+.multipliers{
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+top: 966px;
+left: 726px;
+width: 60px;
+height: 60px;
 /* UI Properties */
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
+background: transparent linear-gradient(270deg, #70E0B5 0%, #2E9EA1 100%) 0% 0% no-repeat padding-box;
+
 opacity: 1;
 }
 
-#lbtext3{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 871px;
-left: 1132px;
-width: 72px;
-height: 15px;
-/* UI Properties */
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-
-}
-
-.leaderboard{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 898px;
-left: 507px;
-width: 940px;
-height: 593px;
-/* UI Properties */
-background: #1A293B 0% 0% no-repeat padding-box;
-opacity: 0.8;
-}
-
-.lb1{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 943px;
-left: 566px;
-width: 382px;
+.x{
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+top: 962px;
+left: 814px;
+width: 138px;
 height: 22px;
 /* UI Properties */
 text-align: center;
-font: normal normal medium 18px/28px ;
+font: normal normal medium 18px/28px Helvetica Neue LT GEO;
 letter-spacing: 0px;
 color: #FFFFFF;
-
-opacity: 1;
+text-transform: uppercase;
+opacity: 1; 
 }
 
-.lb2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 975px;
-left: 575px;
-width: 365px;
-height: 57px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/17px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 0.8;
-}
-
-.lb3{
-    position: absolute;
-    margin: 0%;
-  /* Layout Properties */
-top: 943px;
-left: 1002px;
-width: 388px;
-height: 48px;
-/* UI Properties */
-text-align: center;
-font: normal normal medium 18px/22px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;  
-}
-
-.lb4{
-    position: absolute;
-    margin: 0%;
+.x1{
+  position: absolute;
+  margin: 0%;
    /* Layout Properties */
-top: 997px;
-left: 1022px;
-width: 365px;
-height: 35px;
+top: 995px;
+left: 816px;
+width: 380px;
+height: 37px;
 /* UI Properties */
-text-align: center;
+text-align: left;
 font: normal normal normal 14px/17px Helvetica Neue LT GEO;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0.8;
 }
 
-.box{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1047px;
-left: 550px;
-width: 415px;
-height: 334px;
+.bg{
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+top: 942px;
+left: 697px;
+width: 564px;
+height: 109px;
 /* UI Properties */
 background: #203248 0% 0% no-repeat padding-box;
-border-radius: 13px;
+border-radius: 20px;
 opacity: 1;
 }
 
-.box1{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1047px;
-left: 989px;
-width: 415px;
-height: 334px;
+.lbb1{
+  position: absolute;
+  margin: 0%;
+/* Layout Properties */
+top: 1094px;
+left: 589px;
+width: 338px;
+height: 20px;
 /* UI Properties */
-background: #203248 0% 0% no-repeat padding-box;
-border-radius: 13px;
+text-align: center;
+font: normal normal medium 16px/28px Helvetica Neue LT GEO;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+
+}
+
+.lbb2{
+  position: absolute;
+  margin: 0%;
+  top: 1121px;
+  left: 575px;
+  width: 365px;
+  height: 56px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.lbb3{
+  position: absolute;
+  margin: 0%;
+  top: 1094px;
+left: 979px;
+width: 448px;
+height: 48px;
+text-align: center;
+font: normal normal medium 16px/28px Helvetica Neue LT GEO;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
 opacity: 1;
 }
 
-.cap{
-position: absolute;
-margin: 0%;
+.lbb4{
+  position: absolute;
+  margin: 0%;
+  /* Layout Properties */
+  top: 1121px;
+  left: 1007px;
+  width: 397px;
+  height: 56px;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica Neue LT GEO;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.capp{
+  position: absolute;
+  margin: 0%;
 /* Layout Properties */
-top: 1047px;
+top: 1197px;
 left: 550px;
 width: 217px;
 height: 29px;
@@ -422,55 +1868,13 @@ height: 29px;
 background: #2E9EA1 0% 0% no-repeat padding-box;
 border-radius: 13px 0px;
 opacity: 1;
-};
-
-.cap1{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1047px;
-left: 747px;
-width: 109px;
-height: 29px;
-/* UI Properties */
-background: #227C7E 0% 0% no-repeat padding-box;
-border-radius: 13px 0px;
-opacity: 1;
-};
-
-.cap2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1047px;
-left: 989px;
-width: 217px;
-height: 29px;
-/* UI Properties */
-background: #F19020 0% 0% no-repeat padding-box;
-border-radius: 13px 0px;
-opacity: 1;
-};
-
-.cap3{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1047px;
-left: 1177px;
-width: 139px;
-height: 29px;
-/* UI Properties */
-background: #D2770E 0% 0% no-repeat padding-box;
-border-radius: 13px 0px;
-opacity: 1;
 }
 
-.prizes{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1051px;
+.prizess0{
+  position: absolute;
+  margin: 0%;
+/* Layout Properties */
+top: 1201px;
 left: 561px;
 width: 192px;
 height: 18px;
@@ -482,1183 +1886,34 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.prizes1{
-    position: absolute;
-    margin: 0%;
-  /* Layout Properties */
-top: 1051px;
-left: 777px;
-width: 67px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 15px/22px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;  
-}
-
-.prizes2{
-    position: absolute;
-    margin: 0%;
+.capp1{
+  position: absolute;
+  margin: 0%;
     /* Layout Properties */
-    top: 1051px;
-    left: 1004px;
-    width: 196px;
-    height: 18px;
+    top: 1197px;
+    left: 747px;
+    width: 109px;
+    height: 29px;
     /* UI Properties */
-    text-align: left;
-    font: normal normal normal 15px/22px Industry 2018;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+    background: #227c7e 0% 0% no-repeat padding-box;
+    border-radius: 13px 0px;
     opacity: 1;
-}
-
-.prizes3{
-    position: absolute;
-    margin: 0%;
- /* Layout Properties */
-top: 1051px;
-left: 1216px;
-width: 90px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 15px/22px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;   
-}
-
-.place{
-    position: absolute;
-    margin: 0%;
-    top: 1094px;
-left: 628px;
-width: 52px;
-height: 12px;
-text-align: center;
-font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
-letter-spacing: 0px;
-color: #9A9A9A;
-opacity: 0.5;
-}
-
-.prizi{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1094px;
-left: 797px;
-width: 38px;
-height: 12px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
-letter-spacing: 0px;
-color: #9A9A9A;
-opacity: 0.5;
-}
-
-.table1{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1113px;
-left: 600px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;
-}
-
-.table2{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1154px;
-left: 600px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;
-}
-
-.table3{
-   position: absolute;
-   margin: 0%;
-    /* Layout Properties */
-top: 1195px;
-left: 600px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;
-}
-
-.table4{
-position: absolute;
-margin: 0%;
-    top: 1236px;
-left: 600px;
-width: 316px;
-height: 36px;
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;
-}
-
-.table5{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1277px;
-left: 600px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;;
-
-}
-
-.table6{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1318px;
-left: 600px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 0.3;
-}
-
-.slider{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1114px;
-left: 922px;
-width: 3px;
-height: 35px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 100px;
-opacity: 0.17;
-}
-
-.place1{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1123px;
-left: 653px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-
-.place2{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1164px;
-left: 653px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.place3{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1204px;
-left: 653px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.place4{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1247px;
-left: 645px;
-width: 27px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.place5{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1287px;
-left: 642px;
-width: 34px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.place6{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1328px;
-left: 643px;
-width: 34px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi1{ 
-      position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1121px;
-left: 787px;
-width: 60px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi2{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1162px;
-left: 787px;
-width: 60px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi3{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1202px;
-left: 792px;
-width: 50px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi4{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1245px;
-left: 791px;
-width: 52px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi5{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1285px;
-left: 792px;
-width: 50px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi6{    
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1326px;
-left: 794px;
-width: 42px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-
-.quantity{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1093px;
-left: 1059px;
-width: 74px;
-height: 12px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
-letter-spacing: 0px;
-color: #9A9A9A;
-opacity: 0.5;
-}
-
-
-.prizi7{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1093px;
-left: 1237px;
-width: 38px;
-height: 12px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 12px/25px Helvetica Neue LT GEO MT;
-letter-spacing: 0px;
-color: #9A9A9A;
-}
-
-.table7{
-    position: absolute;
-    margin: 0%; 
-     /* Layout Properties */
-top: 1113px;
-left: 1039px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #162332 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-}
-
-
-
-.table8{
-    position: absolute;
-    margin: 0%;
-      /* Layout Properties */
-top: 1154px;
-left: 1038px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #162332 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-}
-
-
-
-.table9{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-    top: 1195px;
-    left: 1039px;
-    width: 316px;
-    height: 36px;
-    /* UI Properties */
-    background: #162332 0% 0% no-repeat padding-box;
-    border-radius: 5px;
-    opacity: 1;
-}
-
-.table10{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 1236px;
-left: 1039px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #162332 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-}
-
-.table11{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1277px;
-left: 1039px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #162332 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-
-}
-
-.table12{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1318px;
-left: 1039px;
-width: 316px;
-height: 36px;
-/* UI Properties */
-background: #162332 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-}
-
-.quan1{
-position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1122px;
-left: 1090px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.quan2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1164px;
-left: 1090px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.quan3{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1205px;
-left: 1090px;
-width: 7px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.quan4{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1246px;
-left: 1087px;
-width: 14px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.quan5{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1287px;
-left: 1084px;
-width: 22px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.quan6{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1328px;
-left: 1084px;
-width: 22px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi8{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1121px;
-left: 1225px;
-width: 54px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi9{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1162px;
-left: 1224px;
-width: 54px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi10{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1202px;
-left: 1228px;
-width: 46px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-
-}
-
-.prizi11{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1245px;
-left: 1229px;
-width: 44px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi12{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1285px;
-left: 1233px;
-width: 36px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.prizi13{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1328px;
-left: 1235px;
-width: 32px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-font: normal normal normal 14px/20px Industry 2018;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.plus{
-    position: absolute;
-    margin: 0%;   
-    /* Layout Properties */
-top: 1174px;
-left: 937px;
-width: 80px;
-height: 80px;
-/* UI Properties */
-background: transparent linear-gradient(270deg, #70E0B5 0%, #2E9EA1 100%) 0% 0% no-repeat padding-box;
-box-shadow: 0px 0px 15px #65D5B2;
-opacity: 1;
-}
-
-.info{
-    position: absolute;
-    margin: 0%; 
-    /* Layout Properties */
-top: 1406px;
-left: 753px;
-width: 450px;
-height: 17px;
-/* UI Properties */
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 0.67;
-}
-
-.info1{
-    position: absolute;
-    margin: 0%; 
-    /* Layout Properties */
-top: 1429px;
-left: 637px;
-width: 647px;
-height: 36px;
-/* UI Properties */
-text-align: center;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 0.67;
-}
-
-
-.slots{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1562px;
-left: 550px;
-width: 382px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 24px/32px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.slots1{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1601px;
-left: 551px;
-width: 415px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/20px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.terms{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1985px;
-left: 887px;
-width: 184px;
-height: 22px;
-/* UI Properties */
-text-align: center;
-font: normal normal medium 18px/23px Helvetica Neue;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-#line{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2281px;
-left: 505px;
-width: 940px;
-height: 88px;
-/* UI Properties */
-background: transparent linear-gradient(270deg, #70E0B5 0%, #2E9EA1 100%) 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-
-#footer{
-    position: absolute;
-    margin: 0%;
-     /* Layout Properties */
-top: 2286px;
-left: 505px;
-width: 940px;
-height: 88px;
-/* UI Properties */
-background: #141529 0% 0% no-repeat padding-box;
-opacity: 1; 
-}
-
-.bet{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2306px;
-left: 892px;
-width: 170px;
-height: 48px;
-/* UI Properties */
-background: #F05A22 0% 0% no-repeat padding-box;
-border-radius: 5px;
-opacity: 1;
-}
-
-.bet1{
-    position: absolute;
-    margin: 0%;
-
-/* Layout Properties */
-top: 2320px;
-left: 938px;
-width: 78px;
-height: 19px;
-/* UI Properties */
-text-align: center;
-font: normal normal medium 15px/19px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.previous{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2322px;
-left: 570px;
-width: 73px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 13px/22px Helvetica Neue LT GEO;
-letter-spacing: 0px;
-color: #FFFFFF;
-
-opacity: 1;
-}
-
-.next{
-    position: absolute;
-    margin: 0%;
- /* Layout Properties */
- top: 2322px;
- left: 1286px;
- width: 100px;
- height: 16px;
- /* UI Properties */
- text-align: right;
- font: normal normal normal 13px/22px Helvetica Neue LT GEO;
- letter-spacing: 0px;
- color: #FFFFFF;
- opacity: 1;
-}
-
-.arrow{
-    position: absolute;
-    margin: 0%; 
-    /* Layout Properties */
-top: 2325px;
-left: 553px;
-width: 6px;
-height: 11px;
-
-opacity: 1; 
-}
-
-.arrow1{
-    position: absolute;
-    margin: 0%; 
-    /* Layout Properties */
-top: 2325px;
-left: 1397px;
-width: 6px;
-height: 11px;
-opacity: 1;
-}
-
-
-
-
-
-.slidecontainer {
-    width: 100%;
-  }
-  
- 
-  .slider {
-      position: absolute;
-      margin:0%;
-    top: 1950px;
-    left: 550px;
-    width: 729px;
-    height: 6px;
-    -webkit-appearance: none; 
-    appearance: none;
-   
-   
-    background:gray;
-    opacity: 0.7; 
-    -webkit-transition: .2s; 
-    transition: opacity .2s;
-  }
-  
-  .slider:hover {
-    opacity: 1; 
-  }
-  
-  .slider::-webkit-slider-thumb {
-    width: 225px;
-    height: 5px;
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: transparent linear-gradient(270deg, #70E0B5 0%, #2E9EA1 100%) 0% 0% no-repeat padding-box;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-  
-.slotpics{
-position: absolute;
-margin: 0%;
-    /* Layout Properties */
-top: 1900px;
-left: 550px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-
-border-radius: 13px;
-opacity: 1;
-}
-
-
-.test{
-    position: absolute;
-margin: 0%;
-/* Layout Properties */
-top: 1650px;
-left: 550px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-background: transparent url('img/360x420.png') 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 1;
-}
-
-.test1{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1650px;
-left: 758px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-background: transparent url('img/Ozwin.png') 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 1;
-}
-
-.test2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1650px;
-left: 966px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-background: transparent url('img/Valley of the Gods.png') 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 1;
-}
-
-.test3{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1650px;
-left: 1174px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-background: transparent url('img/Vikings go Berzerk.png') 0% 0% no-repeat padding-box;
-border-radius: 13px;
-opacity: 1;
-}
-
-.test4{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 1650px;
-left: 1382px;
-width: 192px;
-height: 224px;
-/* UI Properties */
-background: transparent url('img/Dr Fortuno.png') 0% 0% no-repeat padding-box;
-border-radius: 13px 0px 0px 13px;
-opacity: 1;
-}
-
-.scroll{
-    position: absolute;
-    margin: 0%;
-   /* Layout Properties */
-top: 2041px;
-left: 552px;
-width: 854px;
-height: 60px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-opacity: 0.1; 
-}
-
-.scroll2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2111px;
-left: 552px;
-width: 854px;
-height: 60px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-opacity: 0.1;
-}
-
-.scroll3{
-    position: absolute;
-    margin: 0%; 
-    /* Layout Properties */
-top: 2181px;
-left: 552px;
-width: 854px;
-height: 60px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-opacity: 0.1;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc; 
   }
 
-  .accordion1{
+
+.prizess1{
   position: absolute;
   margin: 0%;
   /* Layout Properties */
-top: 2062px;
-left: 582px;
-width: 400px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 15px/22px Helvetica Neue;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-opacity: 1;  
-  }
-
-  .accordion2{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2132px;
-left: 581px;
-width: 400px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 15px/22px Helvetica Neue;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-opacity: 1;
-  }
-
-.accordion3{
-    position: absolute;
-    margin: 0%;
-     /* Layout Properties */
-top: 2202px;
-left: 581px;
-width: 79px;
-height: 18px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 15px/22px Helvetica Neue;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-opacity: 1;
-}
-
-.arrow4{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2066px;
-left: 1366px;
-width: 15px;
-height: 9px;
-
-/* UI Properties */
-
-opacity: 0.6;
-}
-
-.arrow5{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 2136px;
-left: 1366px;
-width: 15px;
-height: 9px;
-opacity: 0.6;
-}
-
-.arrow6{
-    position: absolute;
-    margin: 0%;
-/* Layout Properties */
-top: 2206px;
-left: 1366px;
-width: 15px;
-height: 9px;
-
-opacity: 1;
+  top: 1200px;
+  left: 777px;
+  width: 67px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/22px Industry 2018;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 
 }
-
-.accordion{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2066px;
-left: 1366px;
-
-color: #444;
-cursor: pointer;
-padding: 18px;
-
-border: none;
-text-align: left;
-outline: none;
-font-size: 15px;
-transition: 0.4s;
-}
-
-.panel{
-    position: absolute;
-    margin: 0%;
-    /* Layout Properties */
-top: 2100px;
-left: 551px;
-width: 815px;
-height:140px;
-padding: 0 18px;
-display: none;
-background-color: white;
-overflow: hidden;
-}
-

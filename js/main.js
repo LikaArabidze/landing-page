@@ -1,3 +1,35 @@
+///onCLick
+
+function switchVisible() {
+  if (document.getElementById('changeableDiv')) {
+
+      if (document.getElementById('changeableDiv').style.display == 'none') {
+          document.getElementById('changeableDiv').style.display = 'block';
+          document.getElementById('testDiv').style.display = 'none';
+      }
+      else {
+          document.getElementById('changeableDiv').style.display = 'none';
+          document.getElementById('testDiv').style.display = 'block';
+      }
+  }
+}
+
+
+
+
+
+
+
+
+//Slider
+
+
+
+
+
+
+
+//Accordion
 var acc = document.getElementsByClassName("accordion");
 var i;
 
